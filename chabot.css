@@ -1,0 +1,155 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: #3581FF;
+    font-family: 'Rubik', sans-serif;
+}
+
+.headerimg{
+    background-image: url("images/chabot24.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin: auto;
+    padding: 5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+button{
+    margin: 0 2rem 0 2rem;
+}
+
+p{
+    margin-bottom: 0.5rem;
+} 
+
+.col-8{
+
+}
+
+.col-4{
+
+}
+
+.col-12{
+    padding: 0;
+}
+
+/*-----------------------------------------------
+Logo Styling –––––––––––––––––––––––––––
+-----------------------––––––––––––––––––––––––––*/
+
+.logo{
+    position: relative;
+    background: red;
+    width: 60%;
+    top: 30%;
+    margin: auto;
+}
+
+.logo-img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+} 
+
+/*-----------------------------------------------
+Navigation Bar Styling –––––––––––––––––––––––––––
+-----------------------––––––––––––––––––––––––––*/
+.nav{
+    background: #0038FF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0.25rem 1rem 0.25rem;
+}
+
+.nav a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+}
+
+.nav-top{
+    font-family: 'Roboto Condensed', sans-serif;
+    float: right;
+    margin: 1rem 1rem;
+}
+
+.nav-top a{
+    display: inline-block;
+}
+
+
+/*-----------------------------------------------
+Bootstrap Card Styling –––––––––––––––––––––––––––
+-----------------------––––––––––––––––––––––––––*/
+.card{
+    margin: 0 0 2rem 1rem;
+}
+
+.card-img-top{
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.today-header{
+    text-align: center;
+    padding-bottom: 2.5rem;
+}
+
+/*-----------------------------------------------
+ Event Card Styling –––––––––––––––––––––––––––
+-----------------------––––––––––––––––––––––––––*/
+.today{
+    display: inline;
+}
+
+.all-events{
+    background: #F5F5F5;
+    margin: auto;
+    margin-bottom: 5rem;
+    border-radius: 0.5rem;
+    width: 85%;
+    padding: 2.5rem;
+}
+
+.thumbnail{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.individual-event-top{
+    /* background: yellow; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 1rem 0 1rem 0;   
+}
+
+.individual-event{
+    border-bottom: 1px solid black;
+    padding: 1rem 0 1rem 0;   
+}
+
+.event-info{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1rem;
+}
+
+/*SideBar Styling -----------------------------------
+---------------------------------------------------*/
+.sidebar-text{
+    margin: 1rem;
+    color: #F5F5F5;
+}
+
+.hours{
+    margin-bottom: 5rem;
+}
